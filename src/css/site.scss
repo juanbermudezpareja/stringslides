@@ -1,0 +1,31 @@
+body {
+	margin: 0 auto;
+	background-color: grey;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+	width: 50%;
+	height: 50%;
+	border: 2px solid black;
+	background-color: #f6f6f6;
+}
+
+.btn{
+	background: #3499db;
+	background-image: linear-gradient();
+	border-radius: 28px;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+button{
+	float: left;
+	margin-right: 10%;
+	margin-top: 5%;
+}
+
+div{
+	display: block;
+}

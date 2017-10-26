@@ -1,0 +1,1 @@
+const arrayFunctions = ['charAt','indexOf','replace','search','split','toLowerCase','toUpperCase'];
