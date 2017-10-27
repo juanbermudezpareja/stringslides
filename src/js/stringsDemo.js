@@ -2,27 +2,14 @@
 var StringFunctions = function (stringToApply) { // Revealing pattern
     return {
         stringToApply: stringToApply,
-        myCharAt: function (pos) {
-            return this.stringToApply.charAt(pos);
-        },
-        myIndexOf: function (pos) {
-            return this.stringToApply.indexOf(pos);
-        },
-        myReplace: function (aString) {
-            return this.stringToApply.replace(aString);
-        },
-        mySearch: function (char) {
-            return this.stringToApply.search(char);
-        },
-        mySplit: function (char) {
-            return this.stringToApply.split(char);
-        },
-        myToLowerCase: function () {
-            return this.stringToApply.toLowerCase();
-        },
-        myToUpperCase: function () {
-            return this.stringToApply.toUpperCase();
-        },
+        myCharAt: (pos) => stringToApply.charAt(pos),
+        myIndexOf: (pos) => stringToApply.indexOf(pos),
+        myReplace: (aString) => stringToApply.replace(aString),
+        mySearch: (char) => stringToApply.search(char),
+        mySplit: (char) => stringToApply.split(char),
+        myToLowerCase: () => stringToApply.toLowerCase(),
+        myToUpperCase: () => stringToApply.toUpperCase()
+        
     };
 };
 
